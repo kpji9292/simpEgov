@@ -48,7 +48,7 @@ public class IndvdlSchdulManageDao extends EgovAbstractDAO {
 	public List<?> selectIndvdlSchdulManageRetrieve(Map<?, ?> map) throws Exception{
 		List<?> a = list("IndvdlSchdulManage.selectIndvdlSchdulManageRetrieve", map);
 		System.out.println();
-		System.out.println();
+//		System.out.println();
 //		System.out.println("-----------aaa "+a.size());
 //		
 //		if(a.size()>0) {
